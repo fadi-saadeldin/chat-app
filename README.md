@@ -207,27 +207,6 @@ This project follows atomic commit principles:
 - Comprehensive comments for complex logic
 - TypeScript strict mode enabled
 
-## Differences from Vite Version
-
-1. **Framework**: Uses Next.js instead of Vite
-2. **Routing**: App Router instead of React Router
-3. **API Proxy**: Built-in Next.js rewrites
-4. **Environment Variables**: `NEXT_PUBLIC_` prefix required
-5. **Client Components**: Must use `'use client'` directive
-6. **Build Output**: `.next` directory instead of `dist`
-
-## Future Enhancements
-
-Potential improvements for future iterations:
-- [ ] Server-side rendering for initial messages
-- [ ] API routes for backend integration
-- [ ] WebSocket support via Next.js API routes
-- [ ] Message editing and deletion
-- [ ] User authentication with NextAuth
-- [ ] File/image upload with Next.js Image component
-- [ ] Real-time updates with Server-Sent Events
-- [ ] Progressive Web App (PWA) capabilities
-- [ ] Edge runtime for global performance
 
 ## Troubleshooting
 
