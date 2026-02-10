@@ -221,11 +221,6 @@ This project follows atomic commit principles:
 2. Update dependencies: `npm update`
 3. Check TypeScript errors: `npm run type-check`
 
-### Hydration Errors
-If you see hydration warnings:
-1. Ensure client-only code uses `'use client'`
-2. Check for mismatched SSR/client HTML
-3. Use `useEffect` for browser-only code
 
 ## License
 
