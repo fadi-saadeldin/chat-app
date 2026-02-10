@@ -91,7 +91,7 @@ export default function ChatApp() {
         style={{ backgroundImage: "url('/bg-image.png')" }}
       />
 
-      <div className="relative z-10 flex-1 overflow-y-auto px-4 py-4" role="log" aria-live="polite">
+      <div className="relative z-10 flex-1 overflow-y-auto px-12 py-4" role="log" aria-live="polite">
         <div className="flex flex-col gap-3">
           {error && (
             <div role="alert" className="relative z-10 mx-4 mt-2 rounded-lg bg-red-50 px-4 py-2 text-xs text-red-500 shadow-sm">
@@ -136,7 +136,7 @@ export default function ChatApp() {
         </div>
       </div>
 
-      <div className="relative z-10 flex-shrink-0 bg-[#1b9adb] px-3 py-6">
+      <div className="relative z-10 flex-shrink-0 bg-[#1b9adb] px-12 py-6">
         <form onSubmit={handleSendMessage} className="flex items-center gap-2">
           <input
             ref={inputRef}
