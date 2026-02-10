@@ -1,11 +1,13 @@
+export type Message = {
+  _id: string;
+  
+author: string;
+  message: string;
+  createdAt: string;
+};
 
-interface Message {
-  id: number;
+
+export type PostMessageRequest = {
   message: string;
   author: string;
-  created_at: string;
-}
-
-interface ApiResponse {
-  messages: Message[];
-}
+};
