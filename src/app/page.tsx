@@ -37,10 +37,9 @@ export default function Home() {
           onClick={handleStart}
           disabled={isDisabled}
           className={`mt-4 rounded px-6 py-2 text-white transition
-            ${
-              isDisabled
-                ? "bg-gray-400 cursor-not-allowed"
-                : "bg-blue-500 hover:bg-blue-600"
+            ${isDisabled
+              ? "bg-gray-400 cursor-not-allowed"
+              : "bg-blue-500 hover:bg-blue-600"
             }`}
         >
           Get Started
